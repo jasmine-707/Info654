@@ -101,11 +101,11 @@
       <h1>Mozilla</h1>
 
 <img
-  srcset="firefox_logo_120px.jpg 120w, 
-          firefox_logo_400px.jpg 400w"
+  srcset="firefox_logo_120px.png 120w, 
+          firefox_logo_400px.png 400w"
   sizes="(max-width: 400px) 120px,
          400px"
-  src="firefox_logo-only_RGB.jpg"
+  src="firefox_logo-only_RGB.png"
   alt="firefox logo only" />
 
 
@@ -133,31 +133,31 @@
     <!-- Insert responsive images with srcsets and sizes -->
     <a href="https://www.mozilla.org/en-US/firefox/new/">
         <img 
-            src="firefox_logo-only_RGB.jpg" 
+            src="firefox_logo-only_RGB.png" 
             alt="Download the new Firefox" 
-            srcset="images/firefox_logo_120px.jpg 120w, images/firefox_logo_400px.jpg 400w"
+            srcset="images/firefox_logo_120px.png 120w, images/firefox_logo_400px.png 400w"
             sizes="(max-width: 500px) 120px, 400px">
     </a>
 
     <a href="https://www.mozilla.org/">
         <img 
-            src="images/mozilla-400.jpg" 
+            src="mozilla-dinosaur-head.png" 
             alt="Mozilla Homepage" 
-            srcset="images/mozilla-120.jpg 120w, images/mozilla-400.jpg 400w"
+            srcset="mozilla_120px.png 120w, images/mozilla_400px.png 400w"
             sizes="(max-width: 500px) 120px, 400px">
     </a>
 
     <a href="https://addons.mozilla.org/">
         <img 
-            src="images/addons-400.jpg" 
+            src="images/addons-400.png" 
             alt="Mozilla Add-ons" 
-            srcset="images/addons-120.jpg 120w, images/addons-400.jpg 400w"
+            srcset="images/addons-120.png 120w, images/addons-400.png 400w"
             sizes="(max-width: 500px) 120px, 400px">
     </a>
 
     <a href="https://developer.mozilla.org/en-US/">
         <img 
-            src="images/mdn.jpg" 
+            src="images/mdn.png" 
             alt="MDN Web Docs">
     </a>
 
@@ -165,23 +165,17 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
       
 
       <div class="red-panda">
-        <!-- insert picture element -->
+    <picture>
+        <source 
+            srcset="red-panda[photoutils.com].jpg" 
+            media="(min-width: 600px)">
+        <img 
+            src="red-panda (1).jpg" 
+            alt="Red Panda">
+    </picture>
       </div>
 
     </main>
